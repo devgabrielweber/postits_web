@@ -51,6 +51,7 @@
 }
 
 .PoistitTexto {
+    max-width: 100%;
     word-wrap: break-word;
     padding: 5px;
     margin: 10px 0 10px 0;
@@ -70,4 +71,22 @@
     border: 2px solid whitesmoke;
     color: white;
     cursor: pointer;
+}
+
+.postitInput {
+    font-size: 16px;
+    height: scrollHeight;
+    max-width: 100%;
+    min-width: 30px;
+    padding: 3px;
+    font-weight: 800;
+    color: rgb(9, 18, 18);
+    background: transparent;
+    border: none;
+    scrollbar-width: none;
+    overflow: hidden;
+}
+
+.postitInput:focus {
+    outline: 1px dotted rgb(9, 18, 18);
 }
